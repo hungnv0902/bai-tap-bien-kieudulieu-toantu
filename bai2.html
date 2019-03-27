@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>Nhập độ C <input id="doC" type="number"  /></p>
+    <button type="button" onclick="dof()">Chuyển sang độ F</button>
+    <script>
+        function dof() {
+            let doC = document.getElementById("doC").value;
+            let doc = parseInt(doC);
+            let doF = 9*doc/5 +32;
+            document.write("Giá trị độ F là: " + doF);
+        };
+
+    </script>
+</body>
+</html>

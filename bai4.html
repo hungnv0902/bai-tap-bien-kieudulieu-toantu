@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Nhập bán kính<input type="number" id="bankinh" /></p>
+<button type="text" onclick="dientich()">Tính diện tích</button>
+<script>
+    function dientich() {
+        let r=document.getElementById("bankinh").value;
+        let S=Math.pow(r, 2)*Math.PI;
+        alert("Diện tích hình tròn là: " +S);
+    }
+</script>
+</body>
+</html>
